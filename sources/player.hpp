@@ -18,7 +18,7 @@ namespace ariel {
         int stack_size = this->all_cards;
 
     public:
-        Player(string name) : name(name) {}
+        Player(string name);
         int stacksize();
         int cardesTaken();
         string get_name();
